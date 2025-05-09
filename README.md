@@ -5,15 +5,12 @@ This is a **Streamlit-based personal portfolio website** showing introduction, p
 
 ## Project Structure
 
-├── app.py # Main Streamlit app
-├── assets/ # All images, icons, and media files
-│ ├── profile.jpg
-│ ├── figure1.png
-│ ├── figure2.png
-│ └── icon1.png ...
-├── requirements.txt # Python dependencies
-└── README.md # This file
-
+- **PersonalWeb**
+  - app.py
+  - assets
+    - profile.jpg ...
+  - requirements.txt
+  - README.md
 
 
 ## Features
@@ -62,10 +59,10 @@ The project uses the following dependencies:
 
 - **Streamlit**: Web app framework used to build the interactive portfolio.
 - **Pillow**: Image handling and display.
-- **Pandas**: Data processing (if needed).
-- **NumPy**: Numerical operations (if needed).
-- **Matplotlib**: Data visualization (if needed).
-- **python-dotenv**: To manage environment variables (if used).
+- **Pandas**: Data processing.
+- **NumPy**: Numerical operations.
+- **Matplotlib**: Data visualized.
+- **python-dotenv**: To manage environment variables.
 
 Install them by running:
 pip install -r requirements.txt
