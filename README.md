@@ -13,6 +13,7 @@ This is a **Streamlit-based personal portfolio website** showing introduction, p
   - README.md
 
 
+
 ## Features
 
 - **Home Page**
@@ -43,7 +44,7 @@ This is a **Streamlit-based personal portfolio website** showing introduction, p
 - **Custom Styling**
   - Custom HTML/CSS into Streamlit to improve layout, design, font, and visual design.
 
----
+
 
 ## Built With
 
@@ -57,12 +58,11 @@ This is a **Streamlit-based personal portfolio website** showing introduction, p
 
 The project uses the following dependencies:
 
-- **Streamlit**: Web app framework used to build the interactive portfolio.
-- **Pillow**: Image handling and display.
-- **Pandas**: Data processing.
-- **NumPy**: Numerical operations.
-- **Matplotlib**: Data visualized.
-- **python-dotenv**: To manage environment variables.
+- import streamlit as st
+- import pandas as pd
+- import plotly.express as px
+- import plotly.graph_objects as go
+- from PIL import Image
 
 Install them by running:
 pip install -r requirements.txt
